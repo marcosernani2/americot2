@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
     <html>
       <head><meta charset="utf-8"><title>Home</title></head>
       <body>
-        <h1>Bem-vindo(a) ao trabalho Node.js</h1>
+        <h1>Bem-vindo(a) ao trabalho Node.js 2</h1>
         <p>Rota: /</p>
         <nav>
           <a href="/sobre">Sobre</a> |
@@ -28,7 +28,7 @@ app.get('/sobre', (req, res) => {
     <html>
       <head><meta charset="utf-8"><title>Sobre</title></head>
       <body>
-        <h1>Sobre esta aplicação</h1>
+        <h1>Sobre esta aplicação perante as proximas</h1>
         <p>Esta é uma aplicação simples baseada no modelo request-response usando Express.</p>
         <a href="/">Voltar</a>
       </body>
@@ -43,7 +43,7 @@ app.get('/contato', (req, res) => {
     <html>
       <head><meta charset="utf-8"><title>Contato</title></head>
       <body>
-        <h1>Fale conosco</h1>
+        <h1>Fale conosco prante as orximas </h1>
         <p>E-mail fictício: aluno@example.com</p>
         <a href="/">Voltar</a>
       </body>
