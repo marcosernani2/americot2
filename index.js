@@ -57,9 +57,11 @@ app.get('/status', (req, res) => {
     status: 'ok',
     servidor: 'rodando corretamente',
     port: PORT,
+    versao: '1.1', 
     hora: new Date().toLocaleString()
   });
 });
+
 
 
 app.listen(PORT, () => {
